@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-label="neofetch : la stack de pyxl-dev">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="1" stop-color="#101626"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#ffffff" opacity=".025"/>
+    </pattern>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .k { fill: #7cf7d4; font-weight: 700; }
+    .v { fill: #c9d1d9; }
+    .d { fill: #5c6478; }
+    .p { animation: pop 6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pop { 0%, 80%, 100% { opacity: 1; } 86% { opacity: .25; } 92% { opacity: 1; } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <rect width="1200" height="380" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="380" rx="18" fill="url(#scan)"/>
+  <rect x=".5" y=".5" width="1199" height="379" rx="18" fill="none" stroke="#2a2f45"/>
+
+  <!-- logo pixel : un P de 7x9 cases -->
+  <g transform="translate(70 62)">
+    <g fill="#8b8bff">
+      <rect class="p" x="0" y="0" width="26" height="26" rx="4"/><rect class="p" x="30" y="0" width="26" height="26" rx="4" style="animation-delay:.2s"/><rect class="p" x="60" y="0" width="26" height="26" rx="4" style="animation-delay:.4s"/><rect class="p" x="90" y="0" width="26" height="26" rx="4" style="animation-delay:.6s"/><rect class="p" x="120" y="0" width="26" height="26" rx="4" style="animation-delay:.8s"/>
+      <rect class="p" x="0" y="30" width="26" height="26" rx="4" style="animation-delay:.3s"/><rect class="p" x="150" y="30" width="26" height="26" rx="4" style="animation-delay:1s"/>
+      <rect class="p" x="0" y="60" width="26" height="26" rx="4" style="animation-delay:.5s"/><rect class="p" x="150" y="60" width="26" height="26" rx="4" style="animation-delay:1.2s"/>
+      <rect class="p" x="0" y="90" width="26" height="26" rx="4" style="animation-delay:.7s"/><rect class="p" x="150" y="90" width="26" height="26" rx="4" style="animation-delay:1.4s"/>
+    </g>
+    <g fill="#ff6ad5">
+      <rect class="p" x="0" y="120" width="26" height="26" rx="4" style="animation-delay:.9s"/><rect class="p" x="30" y="120" width="26" height="26" rx="4" style="animation-delay:1.1s"/><rect class="p" x="60" y="120" width="26" height="26" rx="4" style="animation-delay:1.3s"/><rect class="p" x="90" y="120" width="26" height="26" rx="4" style="animation-delay:1.5s"/><rect class="p" x="120" y="120" width="26" height="26" rx="4" style="animation-delay:1.7s"/>
+      <rect class="p" x="0" y="150" width="26" height="26" rx="4" style="animation-delay:1.1s"/>
+      <rect class="p" x="0" y="180" width="26" height="26" rx="4" style="animation-delay:1.3s"/>
+    </g>
+    <g fill="#7cf7d4">
+      <rect class="p" x="0" y="210" width="26" height="26" rx="4" style="animation-delay:1.5s"/>
+    </g>
+  </g>
+
+  <!-- fiche -->
+  <g class="mono" font-size="19">
+    <text x="320" y="78"><tspan class="k">pyxl</tspan><tspan class="v">@</tspan><tspan class="k">github</tspan></text>
+    <text x="320" y="104" class="d">─────────────────</text>
+    <text x="320" y="136"><tspan class="k">OS      </tspan><tspan class="v">macOS (poste) + Fedora (homelab, systemd --user)</tspan></text>
+    <text x="320" y="166"><tspan class="k">Shell   </tspan><tspan class="v">zsh</tspan></text>
+    <text x="320" y="196"><tspan class="k">Copilot </tspan><tspan class="v">Claude Code + Hermes Agent</tspan></text>
+    <text x="320" y="226"><tspan class="k">Langs   </tspan><tspan class="v">Python, TypeScript, JavaScript, Rust, Java, Swift</tspan></text>
+    <text x="320" y="256"><tspan class="k">Infra   </tspan><tspan class="v">Tailscale, Cloudflare, Docker, n8n</tspan></text>
+    <text x="320" y="286"><tspan class="k">Focus   </tspan><tspan class="v">InfoSec, automatisation, agents IA</tspan></text>
+    <text x="320" y="316"><tspan class="k">Uptime  </tspan><tspan class="v">toujours en train de build<tspan class="cursor">_</tspan></tspan></text>
+  </g>
+
+  <!-- palette -->
+  <g transform="translate(320 336)">
+    <rect width="34" height="18" fill="#0b0f1a" stroke="#2a2f45"/><rect x="34" width="34" height="18" fill="#ff5f57"/><rect x="68" width="34" height="18" fill="#28c840"/><rect x="102" width="34" height="18" fill="#ffcb6b"/><rect x="136" width="34" height="18" fill="#8b8bff"/><rect x="170" width="34" height="18" fill="#ff6ad5"/><rect x="204" width="34" height="18" fill="#7cf7d4"/><rect x="238" width="34" height="18" fill="#e6edf3"/>
+  </g>
+</svg>

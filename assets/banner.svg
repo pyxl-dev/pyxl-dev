@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="pyxl@homelab : terminal de présentation de Yoan Ancelly">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="1" stop-color="#140c24"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7cf7d4"/>
+      <stop offset=".5" stop-color="#8b8bff"/>
+      <stop offset="1" stop-color="#ff6ad5"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#ffffff" opacity=".025"/>
+    </pattern>
+    <radialGradient id="glow" cx=".82" cy=".35" r=".55">
+      <stop offset="0" stop-color="#8b8bff" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#8b8bff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .prompt { fill: #7cf7d4; }
+    .path { fill: #8b8bff; }
+    .cmd { fill: #e6edf3; }
+    .out { fill: #9aa4b2; }
+    .hl { fill: #ffcb6b; }
+    .line { opacity: 0; animation: show 16s steps(1) infinite; }
+    .type { clip-path: inset(0 100% 0 0); animation: type 16s steps(28) infinite; }
+    .l1 { animation-delay: 0s; } .l2 { animation-delay: 1.4s; }
+    .l3 { animation-delay: 2.2s; } .l4 { animation-delay: 3.6s; }
+    .l5 { animation-delay: 4.4s; } .l6 { animation-delay: 5.8s; }
+    .l7 { animation-delay: 6.6s; }
+    @keyframes show { 0% { opacity: 0; } 2% { opacity: 1; } 92% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes type { 0% { clip-path: inset(0 100% 0 0); } 7% { clip-path: inset(0 0 0 0); } 92% { clip-path: inset(0 0 0 0); } 100% { clip-path: inset(0 100% 0 0); } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .glitch-a { animation: ga 4s infinite; }
+    .glitch-b { animation: gb 4s infinite; }
+    @keyframes ga { 0%, 88%, 100% { transform: translate(0,0); } 90% { transform: translate(-6px,2px); } 93% { transform: translate(4px,-2px); } 96% { transform: translate(-2px,0); } }
+    @keyframes gb { 0%, 88%, 100% { transform: translate(0,0); } 90% { transform: translate(6px,-2px); } 93% { transform: translate(-4px,2px); } 96% { transform: translate(2px,0); } }
+    .px { animation: twinkle 3s ease-in-out infinite; }
+    .px:nth-child(2n) { animation-delay: .7s; } .px:nth-child(3n) { animation-delay: 1.4s; } .px:nth-child(5n) { animation-delay: 2.1s; }
+    @keyframes twinkle { 0%, 100% { opacity: .15; } 50% { opacity: 1; } }
+  </style>
+
+  <rect width="1200" height="340" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#glow)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#scan)"/>
+  <rect x=".5" y=".5" width="1199" height="339" rx="18" fill="none" stroke="#2a2f45"/>
+
+  <!-- barre de fenêtre -->
+  <circle cx="30" cy="28" r="7" fill="#ff5f57"/>
+  <circle cx="54" cy="28" r="7" fill="#febc2e"/>
+  <circle cx="78" cy="28" r="7" fill="#28c840"/>
+  <text x="600" y="33" text-anchor="middle" class="mono" font-size="14" fill="#5c6478">pyxl@homelab: ~ (zsh) 120x34</text>
+  <line x1="0" y1="52" x2="1200" y2="52" stroke="#1f2436"/>
+
+  <!-- session -->
+  <g class="mono" font-size="19">
+    <g class="line l1"><g class="type l1"><text x="36" y="96"><tspan class="prompt">pyxl@homelab</tspan><tspan class="out">:</tspan><tspan class="path">~</tspan><tspan class="out">$ </tspan><tspan class="cmd">whoami</tspan></text></g></g>
+    <g class="line l2"><text x="36" y="126" class="out">yoan ancelly <tspan class="hl">//</tspan> infosec &amp; automation addict</text></g>
+    <g class="line l3"><g class="type l3"><text x="36" y="166"><tspan class="prompt">pyxl@homelab</tspan><tspan class="out">:</tspan><tspan class="path">~</tspan><tspan class="out">$ </tspan><tspan class="cmd">cat /etc/motd</tspan></text></g></g>
+    <g class="line l4"><text x="36" y="196" class="out">je build avec <tspan class="hl">Claude</tspan> : agents IA, CLI, hacks de TV et de manettes</text></g>
+    <g class="line l5"><g class="type l5"><text x="36" y="236"><tspan class="prompt">pyxl@homelab</tspan><tspan class="out">:</tspan><tspan class="path">~</tspan><tspan class="out">$ </tspan><tspan class="cmd">ls ~/projets --public --with-icon | wc -l</tspan></text></g></g>
+    <g class="line l6"><text x="36" y="266" class="out"><tspan class="hl">13</tspan> projets maison, une icône chacun. scroll down.</text></g>
+    <g class="line l7"><text x="36" y="306"><tspan class="prompt">pyxl@homelab</tspan><tspan class="out">:</tspan><tspan class="path">~</tspan><tspan class="out">$ </tspan><tspan class="cmd cursor">█</tspan></text></g>
+  </g>
+
+  <!-- logo PYXL glitch -->
+  <g class="mono" font-size="118" font-weight="800" text-anchor="middle">
+    <text x="1000" y="196" fill="#00e5ff" opacity=".55" class="glitch-a">PYXL</text>
+    <text x="1000" y="196" fill="#ff2bd6" opacity=".55" class="glitch-b">PYXL</text>
+    <text x="1000" y="196" fill="url(#title)">PYXL</text>
+  </g>
+  <text x="1000" y="236" text-anchor="middle" class="mono" font-size="15" fill="#5c6478" letter-spacing="4">PIXEL · DEV · AUTOMATION</text>
+
+  <!-- pixels qui scintillent -->
+  <g>
+    <rect class="px" x="848" y="84" width="10" height="10" fill="#7cf7d4"/>
+    <rect class="px" x="1150" y="92" width="10" height="10" fill="#ff6ad5"/>
+    <rect class="px" x="872" y="262" width="10" height="10" fill="#8b8bff"/>
+    <rect class="px" x="1128" y="270" width="10" height="10" fill="#ffcb6b"/>
+    <rect class="px" x="1162" y="210" width="8" height="8" fill="#7cf7d4"/>
+    <rect class="px" x="828" y="190" width="8" height="8" fill="#ff6ad5"/>
+    <rect class="px" x="960" y="74" width="8" height="8" fill="#ffcb6b"/>
+    <rect class="px" x="1040" y="286" width="8" height="8" fill="#8b8bff"/>
+  </g>
+</svg>
