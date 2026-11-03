@@ -171,7 +171,3 @@ okay.
 ```
 
 </details>
-
-<div align="center">
-<sub><code>EOF</code> · made with Claude · the snake comes back every night through a GitHub Action</sub>
-</div>

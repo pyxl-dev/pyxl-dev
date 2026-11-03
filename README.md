@@ -171,7 +171,3 @@ okay.
 ```
 
 </details>
-
-<div align="center">
-<sub><code>EOF</code> · créé avec Claude · le serpent repasse chaque nuit via une GitHub Action</sub>
-</div>
