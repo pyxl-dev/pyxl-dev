@@ -12,7 +12,7 @@
 pyxl@homelab:~$ cat README.md | head -3
 # Salut, moi c'est Yoan.
 # InfoSec, automatisation, et beaucoup trop d'onglets de terminal ouverts.
-# Je build avec Claude des outils qui règlent mes propres problèmes, puis je les partage.
+# Je build avec Claude ce qui me manque, puis je le partage.
 ```
 
 <img src="assets/neofetch.svg" alt="neofetch : macOS + Fedora homelab, zsh, Claude Code + Hermes Agent, Python, TypeScript, Rust" width="100%">
