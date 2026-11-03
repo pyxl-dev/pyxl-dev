@@ -126,7 +126,7 @@ pyxl@homelab:~$ cat README.md | head -3
 <td align="center" width="33%" valign="top">
 <a href="https://github.com/pyxl-dev?tab=repositories"><img src="assets/archive.svg" width="84" alt="archive"></a><br>
 <b><a href="https://github.com/pyxl-dev?tab=repositories">ls -a ~/archive</a></b><br>
-<sub>Old scripts, forks and experiments from before the icons.</sub><br>
+<sub>Old scripts, forks and experiments.</sub><br>
 <code>*.legacy</code>
 </td>
 <td align="center" width="33%" valign="top">
