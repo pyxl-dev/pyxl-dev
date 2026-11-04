@@ -62,6 +62,14 @@ pyxl@homelab:~$ cat README.md | head -3
 <code>Python</code>
 </td>
 </tr>
+<tr>
+<td align="center" width="33%" valign="top">
+<a href="https://github.com/pyxl-dev/waiting-on-me"><img src="https://raw.githubusercontent.com/pyxl-dev/waiting-on-me/HEAD/docs/logo.svg" width="84" alt="waiting-on-me"></a><br>
+<b><a href="https://github.com/pyxl-dev/waiting-on-me">waiting-on-me</a></b><br>
+<sub>Les sessions Claude Code qui attendent ta réponse, rangées à part dans la sidebar.</sub><br>
+<code>TypeScript</code>
+</td>
+</tr>
 </table>
 
 ## `$ ls ~/hacks`
