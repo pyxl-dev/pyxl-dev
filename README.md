@@ -69,6 +69,12 @@ pyxl@homelab:~$ cat README.md | head -3
 <sub>Les sessions Claude Code qui attendent ta réponse, rangées à part dans la sidebar.</sub><br>
 <code>TypeScript</code>
 </td>
+<td align="center" width="33%" valign="top">
+<a href="https://github.com/pyxl-dev/remote-session-titles"><img src="https://raw.githubusercontent.com/pyxl-dev/remote-session-titles/HEAD/docs/logo.svg" width="84" alt="remote-session-titles"></a><br>
+<b><a href="https://github.com/pyxl-dev/remote-session-titles">remote-session-titles</a></b><br>
+<sub>De vrais titres pour les sessions Claude Code lancées depuis ton téléphone.</sub><br>
+<code>TypeScript</code>
+</td>
 </tr>
 </table>
 
