@@ -62,7 +62,7 @@
     <g class="line l3"><g class="type l3"><text x="36" y="166"><tspan class="prompt">pyxl@homelab</tspan><tspan class="out">:</tspan><tspan class="path">~</tspan><tspan class="out">$ </tspan><tspan class="cmd">cat /etc/motd</tspan></text></g></g>
     <g class="line l4"><text x="36" y="196" class="out">je build avec <tspan class="hl">Claude</tspan> : agents IA, CLI, hacks de TV et de manettes</text></g>
     <g class="line l5"><g class="type l5"><text x="36" y="236"><tspan class="prompt">pyxl@homelab</tspan><tspan class="out">:</tspan><tspan class="path">~</tspan><tspan class="out">$ </tspan><tspan class="cmd">ls ~/projets --public | wc -l</tspan></text></g></g>
-    <g class="line l6"><text x="36" y="266" class="out"><tspan class="hl">13</tspan></text></g>
+    <g class="line l6"><text x="36" y="266" class="out"><tspan class="hl">14</tspan></text></g>
     <g class="line l7"><text x="36" y="306"><tspan class="prompt">pyxl@homelab</tspan><tspan class="out">:</tspan><tspan class="path">~</tspan><tspan class="out">$ </tspan><tspan class="cmd cursor">█</tspan></text></g>
   </g>
 

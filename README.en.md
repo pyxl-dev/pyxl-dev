@@ -103,6 +103,14 @@ pyxl@homelab:~$ cat README.md | head -3
 <code>Android</code> <code>Java</code>
 </td>
 </tr>
+<tr>
+<td align="center" width="33%" valign="top">
+<a href="https://github.com/pyxl-dev/lettre-pere-noel"><img src="https://raw.githubusercontent.com/pyxl-dev/lettre-pere-noel/HEAD/docs/logo.svg" width="84" alt="lettre-pere-noel"></a><br>
+<b><a href="https://github.com/pyxl-dev/lettre-pere-noel">lettre-pere-noel</a></b><br>
+<sub>Two Christmas wishlists swapped as letters to Santa, sealed until the big day.</sub><br>
+<code>Cloudflare Workers</code> <code>JavaScript</code>
+</td>
+</tr>
 </table>
 
 ## `$ ls ~/tools`
